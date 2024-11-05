@@ -4,6 +4,7 @@ const MILO_TEMPLATES = [
   '404',
   'featured-story',
 ];
+
 const MILO_BLOCKS = [
   'accordion',
   'action-item',
@@ -41,6 +42,7 @@ const MILO_BLOCKS = [
   'iframe',
   'instagram',
   'locui',
+  'locui-create',
   'marketo',
   'marquee',
   'marquee-anchors',
