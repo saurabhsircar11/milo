@@ -53,5 +53,5 @@ export default function init(el) {
   const base = miloLibs || codeRoot;
   loadStyle(`${base}/blocks/milostudio-header/milostudio-header.css`);
   render(html`<${Create} />`, el);
-  window.postMessage('loadedWithParams', 'http://localhost:5173/');
+  window.postMessage('loadedWithParams', '*');
 }
