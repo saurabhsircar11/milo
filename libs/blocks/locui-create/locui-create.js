@@ -3,7 +3,7 @@ import { createTag } from '../../utils/utils.js';
 function addListeners() {
   window.addEventListener('message', (event) => {
     // eslint-disable-next-line no-useless-return
-    if (event.origin !== 'http://localhost:5173') return;
+    if (event.origin !== 'https://localhost:5173') return;
     window.location.search = event.data;
   });
 }
