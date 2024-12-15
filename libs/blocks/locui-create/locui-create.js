@@ -12,5 +12,5 @@ export default function init(el) {
   const paragraph = createTag('p', null, 'hello world');
   el.append(paragraph);
   addListeners();
-  window.postMessage('loadedWithoutParams', 'http://localhost:5173/');
+  window.postMessage('loadedWithoutParams', '*');
 }
