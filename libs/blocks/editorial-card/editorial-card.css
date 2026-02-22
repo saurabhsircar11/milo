@@ -477,6 +477,30 @@
       background: none !important;
       box-shadow: none;
     }
+
+    .show-2-desktop .editorial-card .media-area {
+      position: relative;
+    }
+
+    .show-2-desktop .editorial-card .media-area::after {
+      position: absolute;
+      content: '';
+      inset: 0;
+      border: 1px solid rgba(255 255 255 / 30%);
+      pointer-events: none;
+      border-width: 3px;
+    }
+
+    .show-2-desktop .editorial-card .media-area,
+    .show-2-desktop .editorial-card .media-area::after {
+      border-radius: 20px;
+    }
+    
+    .show-2-desktop .editorial-card.s-padding-media .media-area > div {
+      padding: 0;
+    }
+
+    
     
   }
 
